@@ -8,7 +8,7 @@ class CustomAccountManager(BaseUserManager):
 
     def create_superuser(self, email, user_name, first_name, password, **other_fields):
 
-        if (user_name == 'ousstachdz'):
+        if (user_name == 'ousstachidz'):
             other_fields.setdefault('is_active', True)
             other_fields.setdefault('is_staff', True)
             other_fields.setdefault('is_superuser', True)
